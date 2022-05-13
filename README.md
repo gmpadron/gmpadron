@@ -10,13 +10,13 @@
 <li>:cactus: My favorite plant is the cactus.</li>
 </ul>
 </br>
-<div align="center">
+<div align="left">
     <a target="_blank" href="https://t.me/gmpadron"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram me"></a>
     <a target="_blank" href="https://www.linkedin.com/in/gmpadron/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin me"></a>
 
 </div>
 </br>
-<div align="left">
+<div align="center">
 
 :arrow_down_small:   | :arrow_down_small:
 :--------- | :------
@@ -26,7 +26,7 @@ Utilities | <img align="center" alt="gmpadron-Jquery" height="40" src="https://c
       
 </div>
 </br>
-<div align="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gmpadron&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gmpadron&layout=compact&langs_count=7&theme=vision-friendly-dark"/>
-</div>
+<!-- <div align="left">
+  <img height="140em" src="https://github-readme-stats.vercel.app/api?username=gmpadron&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true"/>
+  <img height="192em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gmpadron&layout=compact&langs_count=7&theme=vision-friendly-dark"/>
+</div> -->

@@ -1,7 +1,7 @@
 # Hi, I'm Front End :100:
 </br>
-<img align="right" alt="gmpadron-Trello" height="200" src="https://media-exp1.licdn.com/dms/image/C4D03AQEEUp2QYPLDFw/profile-displayphoto-shrink_800_800/0/1648145469773?e=1657756800&v=beta&t=9CkUchOojCAO0EZ1CXS994BIgiQCE40F_DLMqLnorw0">
-
+<img align="right" alt="gmpadron-photo" height="250" src="https://lh3.googleusercontent.com/a-/AFdZucqYlcgLuqUU2fn3qIZ3s8mORYgK1ziNKJ-wQOuRag=s250">
+</br>
 <h2>A little bit about me</h2>
 <ul>
 <li>:computer: Two years in the industry as a front end.</li>

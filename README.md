@@ -12,8 +12,6 @@
 <li>🎯 Determined to contribute my skills to new professional challenges</li>
 </ul>
 
-## 📫 Contact
-
 <div align="left">
     <a target="_blank" href="mailto:gm.padron@outlook.com">
         <img src="https://img.shields.io/badge/gm.padron@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email me">

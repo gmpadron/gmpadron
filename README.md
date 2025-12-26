@@ -1,4 +1,4 @@
-# Gabriel Moises Padron
+# Gabriel Padron
 
 **Software Engineer & Solutions Architect**
 
@@ -30,11 +30,11 @@ Multi-tenant commerce API with granular permission control and real-time invento
 
 **On-Premise AI Automation Infrastructure**  
 Self-hosted automation with local GPU inference. Achieved 60% reduction in manual processing.  
-`n8n` `Docker` `Proxmox`
+`n8n` `Docker` `Proxmox` `Linux`
 
 **Ecommerce Platform — Technical Lead**  
 Led team of 3 developers. Configured dedicated server and Stripe API for PCI compliance.  
-`Laravel` `React` `PostgreSQL` `Stripe`
+`Laravel` `React` `PostgreSQL` `Stripe` `Linux`
 
 ---
 

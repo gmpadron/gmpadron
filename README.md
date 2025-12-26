@@ -1,60 +1,50 @@
-# Hi, I'm Full Stack Developer 🚀
+# Gabriel Moises Padron
 
-**A little bit about me**
+**Software Engineer & Solutions Architect**
 
-<ul>
-<li>💻 Over 5 years of experience in web development and cloud solutions</li>
-<li>🌟 Proficient in React.js, Node, Next.js and Tailwind, with strong expertise in JavaScript and TypeScript</li>
-<li>🌍 Fluent in Spanish and Portuguese, with technical proficiency in English</li>
-<li>💡 Passionate about technology and committed to innovation</li>
-<li>🎯 Determined to contribute my skills to new professional challenges</li>
-</ul>
+6+ years building scalable systems and managing production infrastructure. Previously at Cognizant, currently at PimentaFull.
 
-<div align="left">
-    <a target="_blank" href="mailto:gm.padron@outlook.com">
-        <img src="https://img.shields.io/badge/gm.padron@outlook.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email me">
-    </a>
-    <a target="_blank" href="https://www.linkedin.com/in/gmpadron/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin me">
-    </a>
-    <a target="_blank" href="https://gmpadron.com/">
-        <img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Site me">
-    </a>
-</div>
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gm.padron@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gmpadron/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://gmpadron.com/)
 
-## 🛠️ Skills & Technologies
+---
 
-<div align="left">
-  
-<table>
-<tr>
-<td valign="top" width="50%">
+## Technical Competencies
 
-### Core Technologies
+| Development | Cloud & DevOps |
+|:------------|:---------------|
+| TypeScript, JavaScript (ES6+) | AWS (Lambda, S3, ECS) |
+| React.js, Next.js, Angular 20+ | Kubernetes, Docker, Proxmox |
+| Node.js, NestJS, Laravel | Terraform, CI/CD Pipelines |
+| PostgreSQL, MySQL | Linux, Bash Scripting |
+| REST APIs, GraphQL | RBAC, Guard-based Auth |
 
-| Category | Technologies |
-|:---------|:-------------|
-| **Programming Languages** | JavaScript, TypeScript<br/>PHP, Bash |
-| **Frontend Development** | HTML5, CSS3, React.js<br/>Next.js, jQuery |
-| **Backend Development** | Node.js, Laravel |
-| **API Technologies** | GraphQL, REST APIs |
-| **Database Management** | PostgreSQL, MySQL |
+---
 
-</td>
-<td valign="top" width="50%">
+## Featured Projects
 
-### Tools & Platforms
+**Ecommerce Backend API with RBAC**  
+Multi-tenant commerce API with granular permission control and real-time inventory tracking.  
+`NestJS` `Kubernetes` `PostgreSQL`
 
-| Category | Technologies |
-|:---------|:-------------|
-| **Containerization & OS** | Docker, Linux |
-| **Version Control & IDE** | Git, GitHub<br/>Visual Studio Code |
-| **Design Tools** | Figma |
-| **Package Management** | NPM, Yarn<br/>PNPM |
-| **Automation & E-commerce** | n8n, VTEX |
+**On-Premise AI Automation Infrastructure**  
+Self-hosted automation with local GPU inference. Achieved 60% reduction in manual processing.  
+`n8n` `Docker` `Proxmox`
 
-</td>
-</tr>
-</table>
+**Ecommerce Platform — Technical Lead**  
+Led team of 3 developers. Configured dedicated server and Stripe API for PCI compliance.  
+`Laravel` `React` `PostgreSQL` `Stripe`
 
-</div>
+---
+
+## Key Achievements
+
+- 60% site speed optimization through targeted performance refactoring
+- Built secure Admin Panel for reconciling inventory discrepancies between legacy and modern systems
+- Led legacy system modernization initiative, restoring data integrity across platforms
+- Configured backend analytics directly on production servers
+
+---
+
+*Languages: Spanish (Native), Portuguese (Fluent), English (Technical)*

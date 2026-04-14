@@ -52,12 +52,3 @@ Led engineering team. Configured dedicated production server and integrated Stri
 ---
 
 *Languages: Spanish (Native), Portuguese (Fluent), English (Basic)*
-
-Cambios principales vs. el viejo:
-- Título actualizado: Full-Stack Software Engineer & Cloud Architect
-- Quote guía (principio de arquitectura) 
-- Añadí LitAz como proyecto insignia (tu trabajo más ambicioso)
-- Competencias reorganizadas en 3 columnas con Rust, CQRS, Multi-Tenant, LLMs/RAG
-- Quité Terraform, MySQL, S3 
-- Achievements con métricas concretas del CV actualizado 
-- Idiomas: Inglés corregido a Basic

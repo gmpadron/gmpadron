@@ -4,12 +4,9 @@
 
 6+ years building and operating production systems across ecommerce, SaaS, and financial platforms. End-to-end ownership — from system design through Kubernetes deployment and production monitoring. Previously at Cognizant, currently at PimentaFull. 
 
-[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gm.
-padron@outlook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.l
-inkedin.com/in/gmpadron/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://gmp
-adron.com/)
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gm.padron@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gmpadron/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://gmpadron.com/)
 
 > *"Architecture is not about choosing the best technology — it's about choosing the right constraints."*
 
@@ -30,8 +27,7 @@ adron.com/)
 ## Featured Projects
 
 **LitAz — Multi-Tenant SaaS with Polyglot Microservices on Kubernetes**
-Production SaaS platform with namespace-level tenant isolation, Rust-based fiscal billing engine (SENIAT-compliant),
-immutable financial ledger, pessimistic locking on distributed inventory, and CI/CD orchestrated via GitHub Actions. 
+Production SaaS platform with namespace-level tenant isolation, Rust-based fiscal billing engine (SENIAT-compliant), immutable financial ledger, pessimistic locking on distributed inventory, and CI/CD orchestrated via GitHub Actions. 
 `NestJS` `Rust` `Kubernetes` `PostgreSQL` `CQRS` `Angular 20`
 
 **Air-Gapped AI Automation Platform**

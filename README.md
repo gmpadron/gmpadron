@@ -1,50 +1,67 @@
-# Gabriel Padron
+# Gabriel Padron 
+ 
+**Full-Stack Software Engineer & Cloud Architect** 
 
-**Software Engineer & Solutions Architect**
+6+ years building and operating production systems across ecommerce, SaaS, and financial platforms. End-to-end ownership — from system design through Kubernetes deployment and production monitoring. Previously at Cognizant, currently at PimentaFull. 
 
-6+ years building scalable systems and managing production infrastructure. Previously at Cognizant, currently at PimentaFull.
+[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gm.
+padron@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.l
+inkedin.com/in/gmpadron/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://gmp
+adron.com/)
 
-[![Email](https://img.shields.io/badge/Email-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:gm.padron@outlook.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gmpadron/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://gmpadron.com/)
+> *"Architecture is not about choosing the best technology — it's about choosing the right constraints."*
 
 ---
 
 ## Technical Competencies
 
-| Development | Cloud & DevOps |
-|:------------|:---------------|
-| TypeScript, JavaScript (ES6+) | AWS (Lambda, S3, ECS) |
-| React.js, Next.js, Angular 20+ | Kubernetes, Docker, Proxmox |
-| Node.js, NestJS, Laravel | Terraform, CI/CD Pipelines |
-| PostgreSQL, MySQL | Linux, Bash Scripting |
-| REST APIs, GraphQL | RBAC, Guard-based Auth |
+| Languages & Frameworks | Cloud & Infrastructure | Data & Architecture |
+|:-----------------------|:-----------------------|:--------------------|
+| TypeScript, JavaScript (ES6+) | AWS (Lambda, ECS, EC2, Route 53, SES) | PostgreSQL | 
+| Rust | Kubernetes, Docker | GraphQL (Apollo), REST | 
+| React.js, Next.js, Angular 20 | Nginx, Proxmox, Linux | CQRS, Microservices |
+| Node.js, NestJS | Bash, CI/CD (GitHub Actions) | Multi-Tenant SaaS | 
+| Tailwind | | LLMs, RAG | 
 
 ---
 
 ## Featured Projects
 
-**Ecommerce Backend API with RBAC**  
-Multi-tenant commerce API with granular permission control and real-time inventory tracking.  
-`NestJS` `Kubernetes` `PostgreSQL`
+**LitAz — Multi-Tenant SaaS with Polyglot Microservices on Kubernetes**
+Production SaaS platform with namespace-level tenant isolation, Rust-based fiscal billing engine (SENIAT-compliant),
+immutable financial ledger, pessimistic locking on distributed inventory, and CI/CD orchestrated via GitHub Actions. 
+`NestJS` `Rust` `Kubernetes` `PostgreSQL` `CQRS` `Angular 20`
 
-**On-Premise AI Automation Infrastructure**  
-Self-hosted automation with local GPU inference. Achieved 60% reduction in manual processing.  
-`n8n` `Docker` `Proxmox` `Linux`
+**Air-Gapped AI Automation Platform**
+Self-hosted AI infrastructure with local GPU inference and RAG pipeline over proprietary databases — zero internet dependency, full data sovereignty. 
+`n8n` `LLMs` `RAG` `Docker` `Linux`
 
-**Ecommerce Platform — Technical Lead**  
-Led team of 3 developers. Configured dedicated server and Stripe API for PCI compliance.  
+**Production Ecommerce Platform — Technical Lead (Team of 3)**
+Led engineering team. Configured dedicated production server and integrated Stripe with PCI DSS compliance.
 `Laravel` `React` `PostgreSQL` `Stripe` `Linux`
 
 ---
 
 ## Key Achievements
 
-- 60% site speed optimization through targeted performance refactoring
-- Built secure Admin Panel for reconciling inventory discrepancies between legacy and modern systems
-- Led legacy system modernization initiative, restoring data integrity across platforms
-- Configured backend analytics directly on production servers
+- **60% page load reduction** on production ecommerce storefront via systematic profiling
+- **3+ production storefronts delivered** (Triya, Sidewalk, Darling)
+- **Zero inventory discrepancies** across distributed warehouses via pessimistic locking 
+- **Immutable, audit-ready fiscal ledger** with multi-currency support and regulatory exports (PDF/XML/TXT)
+- Led legacy-to-modern data reconciliation restoring inventory integrity across systems
+- Built secure Admin Panel for operations teams reconciling legacy vs. modern ecommerce data 
 
 ---
 
-*Languages: Spanish (Native), Portuguese (Fluent), English (Technical)*
+*Languages: Spanish (Native), Portuguese (Fluent), English (Basic)*
+
+Cambios principales vs. el viejo:
+- Título actualizado: Full-Stack Software Engineer & Cloud Architect
+- Quote guía (principio de arquitectura) 
+- Añadí LitAz como proyecto insignia (tu trabajo más ambicioso)
+- Competencias reorganizadas en 3 columnas con Rust, CQRS, Multi-Tenant, LLMs/RAG
+- Quité Terraform, MySQL, S3 
+- Achievements con métricas concretas del CV actualizado 
+- Idiomas: Inglés corregido a Basic

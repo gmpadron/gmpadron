@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="390" viewBox="0 0 840 390" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <defs>
   <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.07)"/></pattern>
   <linearGradient id="brand" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d4b33a"/><stop offset="0.55" stop-color="#96c253"/><stop offset="1" stop-color="#4cc38a"/></linearGradient>
-<linearGradient id="line" x1="60" x2="1140" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d4b33a" stop-opacity="0.25"/><stop offset="0.45" stop-color="#d4b33a"/><stop offset="1" stop-color="#4cc38a"/></linearGradient>
+  <linearGradient id="line" x1="40" x2="800" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d4b33a" stop-opacity="0.25"/><stop offset="0.45" stop-color="#d4b33a"/><stop offset="1" stop-color="#4cc38a"/></linearGradient>
 </defs>
 <style>
 
 .up { animation: up .7s cubic-bezier(.23,1,.32,1) both; }
 @keyframes up { from { opacity: 0; transform: translateY(8px); } }
-.rule { transform-origin: 60px 207px; animation: grow .7s cubic-bezier(.23,1,.32,1) .45s both; }
+.rule { transform-origin: 40px 175px; animation: grow .7s cubic-bezier(.23,1,.32,1) .45s both; }
 @keyframes grow { from { transform: scaleX(0); } }
 .draw { stroke-dasharray: 1 1; stroke-dashoffset: 1; animation: draw 2s cubic-bezier(.65,0,.35,1) .6s forwards; }
 @keyframes draw { to { stroke-dashoffset: 0; } }
-.area { opacity: 0; animation: area 1s ease 2.2s forwards; }
-@keyframes area { to { opacity: 1; } }
-.node { opacity: 0; animation: pop .45s cubic-bezier(.34,1.56,.64,1) both; transform-box: fill-box; transform-origin: center; }
+.area { opacity: 0; animation: fade 1s ease 2.2s forwards; }
+@keyframes fade { to { opacity: 1; } }
+.node { opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .45s cubic-bezier(.34,1.56,.64,1) both; }
 @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: none; } }
 .ring { opacity: 0; transform-box: fill-box; transform-origin: center; animation: ring 2.4s cubic-bezier(.23,1,.32,1) 2.7s infinite; }
 @keyframes ring { 0% { opacity: .7; transform: scale(1); } 100% { opacity: 0; transform: scale(2.6); } }
@@ -24,43 +24,36 @@
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
-<rect x="0.5" y="0.5" width="1199" height="419" rx="18" fill="#0d0f0e" stroke="#262a28"/>
-<rect x="0.5" y="0.5" width="1199" height="419" rx="18" fill="url(#dots)"/>
-
-<text class="up" x="60" y="78" font-size="14" font-weight="700" letter-spacing="4" fill="#4cc38a">SÃO PAULO · REMOTE</text>
-<text class="up" x="1140" y="78" text-anchor="end" font-size="17" font-weight="700" fill="#d4b33a">gmpadron.com</text>
-<text class="up" x="60" y="140" font-size="54" font-weight="700" fill="#f2f2ef" style="animation-delay:.1s">Gabriel Moises Padron</text>
-<text class="up" x="60" y="182" font-size="23" fill="#b3b7b4" style="animation-delay:.2s">Full Stack Developer · FinTech · DevOps / Cloud</text>
-<rect class="rule" x="60" y="206" width="60" height="3" rx="1.5" fill="url(#brand)"/>
-<text class="tag t0" x="60" y="252" font-size="19" fill="#b3b7b4">Payments, reconciliation and invoicing that add up.</text>
-<text class="tag t1" x="60" y="252" font-size="19" fill="#b3b7b4">I run what I ship: Docker, Linux, Cloudflare.</text>
-<text class="tag t2" x="60" y="252" font-size="19" fill="#b3b7b4">React, Next.js and NestJS, from the interface to production.</text>
-
-<line x1="60" x2="1140" y1="300" y2="300" stroke="rgba(255,255,255,0.05)"/>
-<line x1="60" x2="1140" y1="350" y2="350" stroke="rgba(255,255,255,0.05)"/>
-<path d="M60 353 C 233 346, 341 330, 470 300 S 708 252, 816 213 S 1010 151, 1140 132 L1140 419 L60 419 Z" fill="#4cc38a" fill-opacity="0.08" class="area"/>
-<path d="M60 353 C 233 346, 341 330, 470 300 S 708 252, 816 213 S 1010 151, 1140 132" pathLength="1" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" class="draw"/>
+<rect x="0.5" y="0.5" width="839" height="389" rx="18" fill="#0d0f0e" stroke="#262a28"/>
+<rect x="0.5" y="0.5" width="839" height="389" rx="18" fill="url(#dots)"/>
+<text class="up" x="40" y="62" font-size="14" font-weight="700" letter-spacing="3.5" fill="#4cc38a">SÃO PAULO · REMOTE</text>
+<text class="up" x="40" y="118" font-size="46" font-weight="700" fill="#f2f2ef" style="animation-delay:.1s">Gabriel Moises Padron</text>
+<text class="up" x="40" y="154" font-size="22" fill="#b3b7b4" style="animation-delay:.2s">Full Stack Developer · FinTech · DevOps / Cloud</text>
+<rect class="rule" x="40" y="174" width="56" height="3" rx="1.5" fill="url(#brand)"/>
+<text class="tag t0" x="40" y="208" font-size="21" fill="#b3b7b4">Payments, reconciliation and invoicing that add up.</text>
+<text class="tag t1" x="40" y="208" font-size="21" fill="#b3b7b4">I run what I ship: Docker, Linux, Cloudflare.</text>
+<text class="tag t2" x="40" y="208" font-size="21" fill="#b3b7b4">React, Next.js and NestJS, interface to production.</text>
+<path d="M40 389 C 162 384, 238 376, 329 360 S 496 334, 572 313 S 709 279, 800 269 L800 389 L40 389 Z" fill="#4cc38a" fill-opacity="0.08" class="area"/>
+<path d="M40 389 C 162 384, 238 376, 329 360 S 496 334, 572 313 S 709 279, 800 269" pathLength="1" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" class="draw"/>
 <g class="node" style="animation-delay:1.15s">
-  <circle cx="372" cy="321" r="11" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
-  <circle cx="372" cy="321" r="5" fill="#d4b33a"/>
-  <text x="372" y="295" text-anchor="middle" font-size="13" letter-spacing="3" fill="#8a8f8c">PROBLEM</text>
+  <circle cx="260" cy="371" r="9" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="260" cy="371" r="4.5" fill="#d4b33a"/>
+  <text x="260" y="351" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2.5" fill="#8a8f8c">PROBLEM</text>
 </g>
 <g class="node" style="animation-delay:1.45s">
-  <circle cx="632" cy="264" r="11" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
-  <circle cx="632" cy="264" r="5" fill="#d4b33a"/>
-  <text x="632" y="238" text-anchor="middle" font-size="13" letter-spacing="3" fill="#8a8f8c">STRATEGY</text>
+  <circle cx="443" cy="341" r="9" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="443" cy="341" r="4.5" fill="#d4b33a"/>
+  <text x="443" y="321" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2.5" fill="#8a8f8c">STRATEGY</text>
 </g>
 <g class="node" style="animation-delay:1.75s">
-  <circle cx="882" cy="190" r="11" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
-  <circle cx="882" cy="190" r="5" fill="#d4b33a"/>
-  <text x="882" y="164" text-anchor="middle" font-size="13" letter-spacing="3" fill="#8a8f8c">DELIVERY</text>
+  <circle cx="618" cy="301" r="9" fill="#0d0f0e" stroke="#d4b33a" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="618" cy="301" r="4.5" fill="#d4b33a"/>
+  <text x="618" y="281" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="2.5" fill="#8a8f8c">DELIVERY</text>
 </g>
 <g class="node" style="animation-delay:2.35s">
-  <circle cx="1140" cy="132" r="13" fill="#0d0f0e" stroke="#4cc38a" stroke-opacity="0.5" stroke-width="1.5"/>
-  <circle cx="1140" cy="132" r="6" fill="#4cc38a"/>
-  <text x="1148" y="106" text-anchor="end" font-size="13" letter-spacing="3" fill="#4cc38a">RESULTS</text>
+  <circle cx="800" cy="269" r="11" fill="#0d0f0e" stroke="#4cc38a" stroke-opacity="0.5" stroke-width="1.5"/>
+  <circle cx="800" cy="269" r="5.5" fill="#4cc38a"/>
+  <text x="806" y="249" text-anchor="end" font-size="13" font-weight="600" letter-spacing="2.5" fill="#4cc38a">RESULTS</text>
 </g>
-
-<circle cx="1140" cy="132" r="10" fill="none" stroke="#4cc38a" stroke-width="2" class="ring"/>
-
+<circle cx="800" cy="269" r="9" fill="none" stroke="#4cc38a" stroke-width="2" class="ring"/>
 </svg>

@@ -10,8 +10,6 @@
 
 <p align="center">Full stack developer with <b>6+ years</b> building e-commerce, web platforms and payment flows.</p>
 
-<img src="assets/title-skills.svg" width="100%" alt="What I work with" />
+<img src="assets/skills.svg" width="100%" alt="What I work with. Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Backend: Node.js, NestJS, Express, Rust, Laravel. Data and payments: PostgreSQL, Prisma, Stripe, Plaid. Infra and DevOps: Docker, Linux, Nginx, Cloudflare, AWS, Kubernetes, GitHub Actions. AI and automation: Claude Code, Codex, RAG, n8n. E-commerce: VTEX IO, Shopify, WordPress." />
 
-<img src="assets/skills.svg" width="100%" alt="Frontend: TypeScript, React, Next.js, Angular, Tailwind CSS. Backend: Node.js, NestJS, Express, Rust, Laravel. Data and payments: PostgreSQL, Prisma, Stripe, Plaid. Infra and DevOps: Docker, Linux, Nginx, Cloudflare, AWS, Kubernetes, GitHub Actions. AI and automation: Claude Code, Codex, RAG, n8n. E-commerce: VTEX IO, Shopify, WordPress." />
-
-<img src="assets/footer.svg" width="100%" alt="Spanish (native), Portuguese (fluent), English (basic). gmpadron.com" />
+<img src="assets/footer.svg" width="100%" alt="Spanish (native), Portuguese (fluent), English (basic)" />

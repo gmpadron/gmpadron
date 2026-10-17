@@ -1,96 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="372" viewBox="0 0 1200 372" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="572" viewBox="0 0 840 572" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <defs>
   <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.07)"/></pattern>
   <linearGradient id="brand" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#d4b33a"/><stop offset="0.55" stop-color="#96c253"/><stop offset="1" stop-color="#4cc38a"/></linearGradient>
+  <linearGradient id="line" x1="40" x2="800" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d4b33a" stop-opacity="0.25"/><stop offset="0.45" stop-color="#d4b33a"/><stop offset="1" stop-color="#4cc38a"/></linearGradient>
 </defs>
 <style>
 
-.row { animation: up .6s cubic-bezier(.23,1,.32,1) both; }
-@keyframes up { from { opacity: 0; transform: translateX(-8px); } }
+.mark { transform-box: fill-box; transform-origin: center; animation: spin 1.2s cubic-bezier(.23,1,.32,1) both; }
+@keyframes spin { from { transform: rotate(-90deg) scale(.6); opacity: 0; } }
+.rule { transform-origin: 40px 70px; animation: grow 1.2s cubic-bezier(.23,1,.32,1) .15s both; }
+@keyframes grow { from { transform: scaleX(0); } }
+.grp { animation: up .6s cubic-bezier(.23,1,.32,1) both; }
+@keyframes up { from { opacity: 0; transform: translateY(8px); } }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
-<rect x="0.5" y="0.5" width="1199" height="371" rx="18" fill="#0d0f0e" stroke="#262a28"/>
-<rect x="0.5" y="0.5" width="1199" height="371" rx="18" fill="url(#dots)"/>
-<g class="row" style="animation-delay:0.0s">
-  <rect x="40" y="46" width="9" height="9" rx="1.5" transform="rotate(45 44.5 50.5)" fill="#d4b33a"/>
-  <text x="66" y="56" font-size="16" font-weight="700" fill="#f2f2ef">Frontend</text>
-  <rect x="260" y="34" width="114" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="317" y="56" text-anchor="middle" font-size="15" fill="#b3b7b4">TypeScript</text>
-  <rect x="384" y="34" width="72" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="420" y="56" text-anchor="middle" font-size="15" fill="#b3b7b4">React</text>
-  <rect x="466" y="34" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="510" y="56" text-anchor="middle" font-size="15" fill="#b3b7b4">Next.js</text>
-  <rect x="565" y="34" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="610" y="56" text-anchor="middle" font-size="15" fill="#b3b7b4">Angular</text>
-  <rect x="664" y="34" width="131" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="730" y="56" text-anchor="middle" font-size="15" fill="#b3b7b4">Tailwind CSS</text>
+<rect x="0.5" y="0.5" width="839" height="571" rx="18" fill="#0d0f0e" stroke="#262a28"/>
+<rect x="0.5" y="0.5" width="839" height="571" rx="18" fill="url(#dots)"/>
+<g class="mark"><rect x="42" y="34" width="16" height="16" rx="2.5" transform="rotate(45 50 42)" fill="url(#brand)"/></g>
+<text x="72" y="50" font-size="24" font-weight="700" fill="#f2f2ef">What I work with</text>
+<rect class="rule" x="40" y="70" width="760" height="1.5" fill="url(#brand)" opacity="0.5"/>
+<g class="grp" style="animation-delay:0.2s">
+  <rect x="41" y="103" width="8" height="8" rx="1.5" transform="rotate(45 45 107)" fill="#d4b33a"/>
+  <text x="60" y="113" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">Frontend</text>
+  <rect x="40" y="128" width="138" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="109" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">TypeScript</text>
+  <rect x="188" y="128" width="85" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="230" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">React</text>
+  <rect x="283" y="128" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="336" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">Next.js</text>
+  <rect x="40" y="178" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="93" y="205" text-anchor="middle" font-size="19" fill="#b3b7b4">Angular</text>
+  <rect x="156" y="178" width="160" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="236" y="205" text-anchor="middle" font-size="19" fill="#b3b7b4">Tailwind CSS</text>
 </g>
-<g class="row" style="animation-delay:0.1s">
-  <rect x="40" y="104" width="9" height="9" rx="1.5" transform="rotate(45 44.5 108.5)" fill="#96c253"/>
-  <text x="66" y="114" font-size="16" font-weight="700" fill="#f2f2ef">Backend</text>
-  <rect x="260" y="92" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="304" y="114" text-anchor="middle" font-size="15" fill="#b3b7b4">Node.js</text>
-  <rect x="359" y="92" width="80" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="399" y="114" text-anchor="middle" font-size="15" fill="#b3b7b4">NestJS</text>
-  <rect x="449" y="92" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="494" y="114" text-anchor="middle" font-size="15" fill="#b3b7b4">Express</text>
-  <rect x="548" y="92" width="64" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="580" y="114" text-anchor="middle" font-size="15" fill="#b3b7b4">Rust</text>
-  <rect x="622" y="92" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="666" y="114" text-anchor="middle" font-size="15" fill="#b3b7b4">Laravel</text>
+<g class="grp" style="animation-delay:0.3s">
+  <rect x="441" y="103" width="8" height="8" rx="1.5" transform="rotate(45 445 107)" fill="#96c253"/>
+  <text x="460" y="113" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">Backend</text>
+  <rect x="440" y="128" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="493" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">Node.js</text>
+  <rect x="556" y="128" width="96" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="604" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">NestJS</text>
+  <rect x="662" y="128" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="715" y="155" text-anchor="middle" font-size="19" fill="#b3b7b4">Express</text>
+  <rect x="440" y="178" width="75" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="478" y="205" text-anchor="middle" font-size="19" fill="#b3b7b4">Rust</text>
+  <rect x="525" y="178" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="578" y="205" text-anchor="middle" font-size="19" fill="#b3b7b4">Laravel</text>
 </g>
-<g class="row" style="animation-delay:0.2s">
-  <rect x="40" y="162" width="9" height="9" rx="1.5" transform="rotate(45 44.5 166.5)" fill="#4cc38a"/>
-  <text x="66" y="172" font-size="16" font-weight="700" fill="#f2f2ef">Data &amp; payments</text>
-  <rect x="260" y="150" width="114" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="317" y="172" text-anchor="middle" font-size="15" fill="#b3b7b4">PostgreSQL</text>
-  <rect x="384" y="150" width="80" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="424" y="172" text-anchor="middle" font-size="15" fill="#b3b7b4">Prisma</text>
-  <rect x="474" y="150" width="80" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="514" y="172" text-anchor="middle" font-size="15" fill="#b3b7b4">Stripe</text>
-  <rect x="564" y="150" width="72" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="600" y="172" text-anchor="middle" font-size="15" fill="#b3b7b4">Plaid</text>
+<g class="grp" style="animation-delay:0.4s">
+  <rect x="41" y="257" width="8" height="8" rx="1.5" transform="rotate(45 45 261)" fill="#4cc38a"/>
+  <text x="60" y="267" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">Data &amp; payments</text>
+  <rect x="40" y="282" width="138" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="109" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">PostgreSQL</text>
+  <rect x="188" y="282" width="96" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="236" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">Prisma</text>
+  <rect x="294" y="282" width="96" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="342" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">Stripe</text>
+  <rect x="40" y="332" width="85" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="82" y="359" text-anchor="middle" font-size="19" fill="#b3b7b4">Plaid</text>
 </g>
-<g class="row" style="animation-delay:0.3s">
-  <rect x="40" y="220" width="9" height="9" rx="1.5" transform="rotate(45 44.5 224.5)" fill="#d4b33a"/>
-  <text x="66" y="230" font-size="16" font-weight="700" fill="#f2f2ef">Infra &amp; DevOps</text>
-  <rect x="260" y="208" width="80" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="300" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">Docker</text>
-  <rect x="350" y="208" width="72" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="386" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">Linux</text>
-  <rect x="432" y="208" width="72" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="468" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">Nginx</text>
-  <rect x="514" y="208" width="114" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="571" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">Cloudflare</text>
-  <rect x="638" y="208" width="55" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="666" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">AWS</text>
-  <rect x="703" y="208" width="114" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="760" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">Kubernetes</text>
-  <rect x="827" y="208" width="148" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="901" y="230" text-anchor="middle" font-size="15" fill="#b3b7b4">GitHub Actions</text>
+<g class="grp" style="animation-delay:0.5s">
+  <rect x="441" y="257" width="8" height="8" rx="1.5" transform="rotate(45 445 261)" fill="#d4b33a"/>
+  <text x="460" y="267" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">Infra &amp; DevOps</text>
+  <rect x="440" y="282" width="96" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="488" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">Docker</text>
+  <rect x="546" y="282" width="85" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="588" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">Linux</text>
+  <rect x="641" y="282" width="85" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="684" y="309" text-anchor="middle" font-size="19" fill="#b3b7b4">Nginx</text>
+  <rect x="440" y="332" width="138" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="509" y="359" text-anchor="middle" font-size="19" fill="#b3b7b4">Cloudflare</text>
+  <rect x="588" y="332" width="64" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="620" y="359" text-anchor="middle" font-size="19" fill="#b3b7b4">AWS</text>
+  <rect x="662" y="332" width="138" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="731" y="359" text-anchor="middle" font-size="19" fill="#b3b7b4">Kubernetes</text>
+  <rect x="440" y="382" width="181" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="530" y="409" text-anchor="middle" font-size="19" fill="#b3b7b4">GitHub Actions</text>
 </g>
-<g class="row" style="animation-delay:0.4s">
-  <rect x="40" y="278" width="9" height="9" rx="1.5" transform="rotate(45 44.5 282.5)" fill="#96c253"/>
-  <text x="66" y="288" font-size="16" font-weight="700" fill="#f2f2ef">AI &amp; automation</text>
-  <rect x="260" y="266" width="122" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="321" y="288" text-anchor="middle" font-size="15" fill="#b3b7b4">Claude Code</text>
-  <rect x="392" y="266" width="72" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="428" y="288" text-anchor="middle" font-size="15" fill="#b3b7b4">Codex</text>
-  <rect x="474" y="266" width="55" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="502" y="288" text-anchor="middle" font-size="15" fill="#b3b7b4">RAG</text>
-  <rect x="539" y="266" width="55" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="566" y="288" text-anchor="middle" font-size="15" fill="#b3b7b4">n8n</text>
+<g class="grp" style="animation-delay:0.6s">
+  <rect x="41" y="411" width="8" height="8" rx="1.5" transform="rotate(45 45 415)" fill="#96c253"/>
+  <text x="60" y="421" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">AI &amp; automation</text>
+  <rect x="40" y="436" width="149" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="114" y="463" text-anchor="middle" font-size="19" fill="#b3b7b4">Claude Code</text>
+  <rect x="199" y="436" width="85" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="242" y="463" text-anchor="middle" font-size="19" fill="#b3b7b4">Codex</text>
+  <rect x="294" y="436" width="64" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="326" y="463" text-anchor="middle" font-size="19" fill="#b3b7b4">RAG</text>
+  <rect x="40" y="486" width="64" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="72" y="513" text-anchor="middle" font-size="19" fill="#b3b7b4">n8n</text>
 </g>
-<g class="row" style="animation-delay:0.5s">
-  <rect x="40" y="336" width="9" height="9" rx="1.5" transform="rotate(45 44.5 340.5)" fill="#4cc38a"/>
-  <text x="66" y="346" font-size="16" font-weight="700" fill="#f2f2ef">E-commerce</text>
-  <rect x="260" y="324" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="304" y="346" text-anchor="middle" font-size="15" fill="#b3b7b4">VTEX IO</text>
-  <rect x="359" y="324" width="89" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="404" y="346" text-anchor="middle" font-size="15" fill="#b3b7b4">Shopify</text>
-  <rect x="458" y="324" width="106" height="34" rx="17" fill="#141715" stroke="#262a28"/>
-  <text x="511" y="346" text-anchor="middle" font-size="15" fill="#b3b7b4">WordPress</text>
+<g class="grp" style="animation-delay:0.7s">
+  <rect x="441" y="461" width="8" height="8" rx="1.5" transform="rotate(45 445 465)" fill="#4cc38a"/>
+  <text x="460" y="471" font-size="18" font-weight="700" letter-spacing="0.3" fill="#f2f2ef">E-commerce</text>
+  <rect x="440" y="486" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="493" y="513" text-anchor="middle" font-size="19" fill="#b3b7b4">VTEX IO</text>
+  <rect x="556" y="486" width="106" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="609" y="513" text-anchor="middle" font-size="19" fill="#b3b7b4">Shopify</text>
+  <rect x="672" y="486" width="128" height="40" rx="20" fill="#141715" stroke="#262a28"/>
+  <text x="736" y="513" text-anchor="middle" font-size="19" fill="#b3b7b4">WordPress</text>
 </g>
 
 </svg>
